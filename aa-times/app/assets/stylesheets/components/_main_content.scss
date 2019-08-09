@@ -1,0 +1,86 @@
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+h2 {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+article ul {
+    list-style: disc outside none;
+}
+
+section li {
+    margin-left: 1em;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+
+li > p {
+    // margin: 10px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+section li > a {
+    font-weight: bold;
+}
+
+iframe {
+    width: 100%;
+    height: 315px;
+}
+
+.authorship {
+    color: $gray;
+    line-height: 2
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 1.75;
+}
+
+form {
+    font-family: $sans-serif;
+}
+
+input[type=text] {
+    border: 1px solid $light-gray;
+    flex: 1;
+}
+
+.field {
+    display: flex
+}
+
+.sneakytext {
+    color: $light-gray;
+}
+
+.comment-link {
+    color: $blue;
+    font-family: $sans-serif;
+}
+
+#ops {
+    display: flex;
+    flex-direction: column;
+}
