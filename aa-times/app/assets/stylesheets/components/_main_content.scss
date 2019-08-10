@@ -1,23 +1,4 @@
 
-h1 {
-    font-size: 24px;
-    font-weight: bold;
-    font-style: italic;
-}
-
-
-h2 {
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-h3 {
-    font-size: 12px;
-    font-weight: bold;
-    padding-bottom: 0px;
-}
 
 article ul {
     list-style: disc outside none;
@@ -49,7 +30,8 @@ iframe {
 
 .authorship {
     color: $gray;
-    line-height: 2
+    display: block;
+    line-height: 1.5;
 }
 
 .section-title {
@@ -59,28 +41,69 @@ iframe {
 }
 
 form {
+    margin-top: 10px;
     font-family: $sans-serif;
 }
+
+.field > button {
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+}
+
+.field > input[type=text] {
+    border-right: none;
+}
+
 
 input[type=text] {
     border: 1px solid $light-gray;
     flex: 1;
+    padding: 0px 8px;
 }
 
+input[type=text]::placeholder {
+    color: $light-gray;
+}
+
+
 .field {
-    display: flex
+    display: flex;
+    margin-bottom: 10px;
 }
 
 .sneakytext {
     color: $light-gray;
+    font-size: 10px;
+    line-height: 1.5;
+    text-align: center
 }
 
 .comment-link {
     color: $blue;
     font-family: $sans-serif;
+    display: block;
+    margin: 20px 0px;
 }
 
 #ops {
     display: flex;
     flex-direction: column;
+}
+
+.linklist {
+    font-size: 11px;
+}
+
+.thumbnail {
+    height: 100px;
+}
+
+.thumbnail > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.vidcaption {
+    margin: 10px 0px
 }

@@ -59,3 +59,41 @@ a:hover {
 .hidden {
 	visibility: hidden;
 }
+
+.hr-top {
+	background-color: $light-gray;
+	height: 1px;
+	width: 50%;
+	margin: 10px auto;
+}
+
+.hr-bottom {
+	border-top: 1px solid $light-gray;
+	background-color: $lightest-gray;
+	height: 3px;
+	width: 100%;
+	margin: 25px auto;
+}
+
+
+
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+h2 {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
